@@ -60,7 +60,7 @@ for index, message in enumerate(st.session_state.messages):
 
 # For initial message setup
 if len(st.session_state.messages) == 0 and user_name:
-    initial_prompt = f"your name is ReX, an assistant powered by Google Gemini. this is the user's name {user_name}, give a personalised welcome message, use emojis"
+    initial_prompt = f"your name is ReX, an assistant powered by Google Gemini. this is the user's name {user_name}, give a personalised welcome message, use emojis, the greeting message should not more than 20 words"
     llm_function(chat, initial_prompt)
 
 
