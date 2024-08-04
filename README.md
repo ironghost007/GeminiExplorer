@@ -10,4 +10,4 @@ Gemini Explorer is a Streamlit-based web application that leverages Google Verte
 
 ## Screenshot
 
-![Gemini Explorer](Screenshot%202024-08-03%20at%209.43.04%20PM.png)
+![Gemini Explorer](Screenshot.png)
